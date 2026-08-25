@@ -3,41 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Uzair Shaikh Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-    <h1>Uzair Shaikh</h1>
-    <ul>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Projects</li>
-    </ul>
+
+        <nav>
+            <h1>Uzair Shaikh</h1>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-text">
+            <h2>Computer Science Student</h2>
+
+            <p>
+                Building software, exploring AI, and creating products
+                that solve real-world problems.
+            </p>
+
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+        </div>
+
     </header>
 
-    <div> 
-        <h2>About</h2>
-        <p>I'm a passionate developer, who loves building things, currently in my second year at McMaster University</p>
-    </div>
+    <section id="about">
+        <h2>About Me</h2>
 
-    <div>
+        <p>
+            I'm a second-year Computer Science student at McMaster
+            University who enjoys software development, hackathons,
+            AI applications, and startup projects.
+        </p>
+    </section>
+
+    <section id="projects">
         <h2>Projects</h2>
-        <div>
-            <a href="">Unclutter</a>
-            <p>An AI powered gmail app, sorts your emails, into different catogories automatically</p>
-        </div>
 
-        <div>
-             <a href="">Recruiter AI</a>
-            <p>Rates your resume based on factors like ATS readibility, correct keywords (using job description) and gives feedback </p>
-        </div>
+        <div class="projects-grid">
 
-        <div>
-             <a href="">FanFlow</a>
-            <p>A social app built, to bring together sports fans around the world (working towards a full-time startup conversion)</p>
+            <div class="project-card">
+                <h3>UnClutter</h3>
+
+                <p>
+                    AI-powered Gmail assistant that automatically
+                    sorts and summarizes emails.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Recruiter AI</h3>
+
+                <p>
+                    Resume analyzer that evaluates ATS compatibility
+                    and provides improvement suggestions.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>FanFlow</h3>
+
+                <p>
+                    Social platform connecting sports fans and helping
+                    organize watch parties around the world.
+                </p>
+            </div>
+
         </div>
-        
-    </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: uzair@example.com</p>
+        <p>GitHub: github.com/uzair</p>
+        <p>LinkedIn: linkedin.com/in/uzair</p>
+    </section>
+
 </body>
 </html>
