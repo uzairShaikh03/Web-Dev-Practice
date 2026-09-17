@@ -5,7 +5,7 @@ function whosPaying(names) {
     //Write your code here.
     
  var random= Math.random();
- random= Math.floor(random*5)+1;
+ random= (Math.floor(random*names.length)+1);
  return names[random];
     
 
